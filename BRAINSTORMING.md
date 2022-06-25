@@ -9,7 +9,14 @@ This is a document to brainstorm all the possible features and ideas related to 
 - Cycle tracker
     - Days till period
     - Hormone levels / PMS symptoms warning
-- Log symptoms
+- Log symptoms + intensity
+    - Flow
+    - Cramps 
+    - Headaches
+    - Stools
+    - Back pain
+    - Soreness
+    - Fatigue
 - Create notes
 - Fertility / Pregnancy modes
     - Sex tracking
