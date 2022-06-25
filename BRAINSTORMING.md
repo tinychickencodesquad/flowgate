@@ -31,3 +31,7 @@ This is a document to brainstorm all the possible features and ideas related to 
 ### Languages and Frameworks
 
 - Apache Cordova
+
+### Marketing
+
+- "Your data is only as secure as your password. Here are some tips for better passwords" (Blog?)
