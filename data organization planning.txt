@@ -1,0 +1,79 @@
+day
+cycle
+schedule
+baseSymptom
+  symptomRange
+  symptomToggle
+  symptomCount
+
+english: {
+  symptom: {
+    headache: "headache",
+  }
+  prediction: "you may experience [[symptom]] today"
+}
+
+french: {
+  headache: "headache",
+  prediction: "you may experience [[symptom]] today"
+}
+
+
+
+core : {
+  symptom: {
+    headache: {
+      _internal: "HEAD",
+    },
+    sore: "SORE",
+  }
+  range: {
+    min: 0,
+    max: 1,
+  }
+}
+
+userSettings: {
+  avgCycleLength:
+  trackingSymptoms: 
+  cycleSchedule:
+}
+
+cycle: {
+  length: // in days
+  sections: 
+  currentDay:
+  currentSchedule:
+  length:
+  ignore:
+  abnormal:
+  days: 
+}
+
+day: {
+  symptoms: [
+    {
+      type: 
+      timestamp:
+      value:
+    }
+  ]
+  notes: [
+    {
+      timestamp:
+      content:
+    }
+  ]
+}
+
+
+let cycle01 = new Cycle()
+
+let today = cycle1.newDay()
+
+let symptoms = {
+  core.symptom.headache: 0.2,   // 0 to 1
+  core.symptom.sore    : 0.6    // 0 to 1
+}
+
+today.log(symptoms)
